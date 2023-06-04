@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="pagina.css">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/spotcookie-regular" type="text/css"/>
+</head>
+<body>
+    <h1 id="title">Formulario universidad</h1> 
+    <p id="description">Aqui colocaran como te has sentido en tu univerdad </p>
+    
+    <form action="" id="survey-form">
+        <label id="name-label" for="name">Nombre completo:</label><br>
+        <input  type="text" id="name" placeholder="ingresa tu nombre" required=""><br><br>
+
+        <label id="email-label" for="email">Email:</label><br>
+        <input id="email" type="email" pattern="[^ @]*@[^ @]*" placeholder="ingresa email" required=""><br><br>
+
+        <label id="number-label" for="number">Numero:</label><br>
+        <input id="number" type="number" min="1" max="100" placeholder="numero"><br><br>
+
+        <label id="opciones-label" for="univerdad">Elegir tu univerdad:</label><br>
+        <select name="universidad" id="dropdown">
+            <option value="universidades">Universidades</option>
+            <option value="cuc">CUC</option>
+            <option value="simon_b">Simon Bolivar</option>
+            <option value="atlantico">U. Atlantico</option>
+            <option value="norte">U. Norte</option>
+            <option value="otras">Otra</option>
+        </select><br><br>
+        
+        <label>Area de estudio:</label><br>
+
+        <input name="area" type="radio" value="ingenieria">
+        <label for="area">Ingenieria</label><br>
+
+        <input name="area" type="radio" value="humanidades">
+        <label for="area">Humanidades</label><br><br>
+
+        <label >Carrera:</label><br>
+        <input name="carrera1" type="checkbox" value="carrera1"><label for="carrera1">Ing. Sistemas</label><br>
+
+        <input type="checkbox" name="carrera2"  value="carrera2">
+        <label for="carrera2">Ing. Electronica</label><br><br>
+
+        <label >Como te sientes en la u:</label><br>
+        <textarea name="comentario" id="comentario" cols="40" rows="5" placeholder="Escribe como te a ido en la u "></textarea><br>
+        <input id="submit" type="submit"  value="enviar">
+
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,38 @@
+* {
+    font-family: 'SpotCookieRegular';
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+#title , #description{
+    text-align: center;
+}
+
+#name,#email,#number,#comentario{
+    width: 100%;
+    border-radius: 5px;
+    border-color: brown;
+}
+
+#name:hover{
+    background-color: rgba(59, 150, 202, 0.048);
+}
+
+
+body{
+    /* background-color: blue; */
+    background-image:url("https://imgs.search.brave.com/3mLA9ty-kOE3ZLau0Q721fqvfFXDm1UGZa4RotjbmGI/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9pbWFn/ZXM4LmFscGhhY29k/ZXJzLmNvbS8zNTcv/MzU3ODA2LmpwZw");
+    background-repeat: no-repeat;
+    background-size:cover ;
+    
+}
+
+
+#survey-form{
+    background-color: rgba(255,255, 255, 0.8);
+    width: 60%;
+    padding:50px;
+    display: block;
+    margin: auto;
+}
